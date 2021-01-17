@@ -1,4 +1,4 @@
-package co.appbrewery.flash_chat;
+package co.yash.chit_chat;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

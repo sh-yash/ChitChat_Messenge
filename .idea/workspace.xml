@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dececc9-cff9-4b87-8983-ff307932a727" name="Default Changelist" comment="" />
+    <list default="true" id="6dececc9-cff9-4b87-8983-ff307932a727" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/co/appbrewery/flash_chat/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/co/yash/chit_chat/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/chat_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/chat_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/registration_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/registration_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/welcome_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +45,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1my59FBHy3Aq3fjQpMPXTf7DYeC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,22 +88,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="721" height="199" key="GridCell.Tab.0.bottom" timestamp="1610906839991">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1610908587602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="199" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610906839991" />
-    <state width="721" height="199" key="GridCell.Tab.0.center" timestamp="1610906839991">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610908587602" />
+    <state x="630" y="310" key="Github.ShareDialog" timestamp="1610907545301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="199" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610906839991" />
-    <state width="721" height="199" key="GridCell.Tab.0.left" timestamp="1610906839991">
+    <state x="630" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1610907545301" />
+    <state x="485" y="111" key="Github.UntrackedFilesDialog" timestamp="1610907552297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="199" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610906839991" />
-    <state width="721" height="199" key="GridCell.Tab.0.right" timestamp="1610906839991">
+    <state x="485" y="111" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610907552297" />
+    <state width="1491" height="199" key="GridCell.Tab.0.bottom" timestamp="1610909187136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="199" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610906839991" />
+    <state width="1491" height="199" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610909187136" />
+    <state width="1491" height="199" key="GridCell.Tab.0.center" timestamp="1610909187136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="199" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610909187136" />
+    <state width="1491" height="199" key="GridCell.Tab.0.left" timestamp="1610909187134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="199" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610909187134" />
+    <state width="1491" height="199" key="GridCell.Tab.0.right" timestamp="1610909187136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="199" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610909187136" />
     <state x="47" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610900073926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
