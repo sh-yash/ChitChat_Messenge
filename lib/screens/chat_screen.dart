@@ -96,7 +96,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       getCurrentUser();
                       messageTextController.clear();
                       _firestore.collection('messages').add(
-                          {'text': messageText, 'sender': loggedInUser.email});
+                          {'text': messageText, 'sender': loggedInUser.email , 'time' : FieldValue.serverTimestamp()});
                     },
                     child: Text(
                       'Send',
@@ -117,7 +117,8 @@ class MessageBubble extends StatelessWidget {
   final String messageText;
   final String messageSender;
   final bool isMe;
-  MessageBubble({this.messageSender, this.messageText, this.isMe});
+  final Timestamp time;
+  MessageBubble({this.messageSender, this.messageText, this.isMe,this.time});
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -127,7 +128,7 @@ class MessageBubble extends StatelessWidget {
             isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
         children: [
           Text(
-            messageSender,
+            '$messageSender ${DateTime.fromMillisecondsSinceEpoch(time.seconds * 1000)}',
             style: TextStyle(
               fontSize: 12.0,
               fontWeight: FontWeight.w300,
@@ -171,7 +172,7 @@ class MessagesStream extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
-        stream: _firestore.collection('messages').snapshots(),
+        stream: _firestore.collection('messages').orderBy('time',descending: false).snapshots(),
         builder: (context, snapshot) {
           if (!snapshot.hasData) {
             return Center(
@@ -179,16 +180,20 @@ class MessagesStream extends StatelessWidget {
             );
           }
           final messages = snapshot.data.docs.reversed;
+
           List<MessageBubble> messageBubbles = [];
           for (var message in messages) {
             final messageText = message.data()['text'];
             final messageSender = message.data()['sender'];
 
             final currentUser = loggedInUser.email;
+
+            final messageTime= message.data()['time'] as Timestamp;
             final messageBubble = MessageBubble(
               messageSender: messageSender,
               messageText: messageText,
               isMe: messageSender == currentUser,
+              time: messageTime,
             );
             messageBubbles.add(messageBubble);
           }
