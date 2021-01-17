@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440964649038",
+    "project_id": "chit-chat-messenger-4adbd",
+    "storage_bucket": "chit-chat-messenger-4adbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440964649038:android:6c72360ed58d670beb731f",
+        "android_client_info": {
+          "package_name": "co.yash.chit_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440964649038-b32bonvgdpu6hfjcq5k639eunchndjfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbFKbOf5qmDfyM3L6phWdUBFpo7SATUE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440964649038-b32bonvgdpu6hfjcq5k639eunchndjfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
